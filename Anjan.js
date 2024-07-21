@@ -8,7 +8,7 @@ let digitalSecondesPoint = document.getElementById("secondes");
 let ampm = document.getElementById("ampm");
 
 setInterval(() => {
-  let date = new Date();
+  let date = new Date(); 
   let hour = date.getHours() * 30;
   let minute = date.getMinutes() * 6;
   let second = date.getSeconds() * 6;
